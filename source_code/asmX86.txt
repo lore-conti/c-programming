@@ -1,0 +1,96 @@
+AAA ASCII Adjust after Addition 
+AAD ASCII Adjust AX before Division 
+AAM ASCII Adjust AX after Multiply 
+AAS ASCII Adjust AL after Subtraction 
+ADC Add with Carry 
+ADD Add 
+AND Logical AND 
+ARPL Adjust RPL Field of Selector 
+BOUND Check Array Index Against Bounds 
+BSF Bit Scan Forward 
+BSR Bit Scan Reverse 
+BT Bit Test 
+BTC Bit Test and Complement 
+BTR Bit Test and Reset 
+BTS Bit Test and Set 
+CALL Call Procedure 
+CBW/CWDE Convert Byte to Word/Convert Word to Doubleword 
+CLC Clear Carry Flag 
+CLD Clear Direction Flag 
+CLI Clear Interrupt Flag 
+CLTS Clear Task-Switched Flag in CR0 
+CMC Complement Carry Flag 
+CMP Compare Two Operands 
+CMPS/CMPSB/CMPSW/CMPSD Compare String Operands 
+CWD/CDQ Convert Word to Doubleword/Convert Doubleword to Quadword 
+DAA Decimal Adjust AL after Addition 
+DAS Decimal Adjust AL after Subtraction 
+DEC Decrement by 1 
+DIV Unsigned Divide 
+ENTER Make Stack Frame for Procedure Parameters 
+HLT Halt 
+IDIV Signed Divide 
+IMUL Signed Multiply 
+IN Input from Port 
+INC Increment by 1 
+INS/INSB/INSW/INSD Input from Port to String 
+INT/INTO Call to Interrupt Procedure 
+IRET/IRETD Interrupt Return 
+Jcc Jump if Condition is Met 
+JMP Jump 
+LAHF Load Flags into AH Register 
+LAR Load Access Rights Byte 
+LEA Load Effective Address 
+LEAVE High Level Procedure Exit 
+LGDT/LIDT Load Global/Interrupt Descriptor Table Register 
+LGS/LSS/LDS/LES/LFS Load Full Pointer 
+LLDT Load Local Descriptor Table Register 
+LMSW Load Machine Status Word 
+LOCK Assert LOCK# Signal Prefix 
+LODS/LODSB/LODSW/LODSD Load String Operand 
+LOOP/LOOPcond Loop Control with CX Counter 
+LSL Load Segment Limit 
+LTR Load Task Register 
+MOV Move Data 
+MOV Move to/from Special Registers 
+MOVS/MOVSB/MOVSW/MOVSD Move Data from String to String 
+MOVSX Move with Sign-Extend 
+MOVZX Move with Zero-Extend 
+MUL Unsigned Multiplication of AL or AX 
+NEG Two's Complement Negation 
+NOP No Operation 
+NOT One's Complement Negation 
+OR Logical Inclusive OR 
+OUT Output to Port 
+OUTS/OUTSB/OUTSW/OUTSD Output String to Port 
+POP Pop a Word from the Stack 
+POPA/POPAD Pop all General Registers 
+POPF/POPFD Pop Stack into FLAGS or EFLAGS Register 
+PUSH Push Operand onto the Stack 
+PUSHA/PUSHAD Push all General Registers 
+PUSHF/PUSHFD Push Flags Register onto the Stack 
+RCL/RCR/ROL/ROR Rotate 
+REP/REPE/REPZ/REPNE/REPNZ Repeat Following String Operation 
+RET Return from Procedure 
+SAHF Store AH into Flags 
+SAL/SAR/SHL/SHR Shift Instructions 
+SBB Integer Subtraction with Borrow 
+SCAS/SCASB/SCASW/SCASD Compare String Data 
+SETcc Byte Set on Condition 
+SGDT/SIDT Store Global/Interrupt Descriptor Table Register 
+SHLD Double Precision Shift Left 
+SHRD Double Precision Shift Right 
+SLDT Store Local Descriptor Table Register 
+SMSW Store Machine Status Word 
+STC Set Carry Flag 
+STD Set Direction Flag 
+STI Set Interrupt Flag 
+STOS/STOSB/STOSW/STOSD Store String Data 
+STR Store Task Register 
+SUB Integer Subtraction 
+TEST Logical Compare 
+VERR, VERW Verify a Segment for Reading or Writing 
+WAIT Wait until BUSY# Pin is Inactive (HIGH) 
+XCHG Exchange Register/Memory with Register 
+XLAT/XLATB Table Look-up Translation 
+XOR Logical Exclusive OR 
