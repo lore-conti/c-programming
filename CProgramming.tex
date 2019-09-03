@@ -1,8 +1,9 @@
 \documentclass{report}
 
-\usepackage[latin1]{inputenc}
+%\usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{times}
+%\usepackage{times}
+\usepackage{helvet}
 \usepackage{latexsym}
 \usepackage{listings}
 \usepackage{vmargin}
@@ -19,7 +20,7 @@
 \fi
 
 \setpapersize{A4}
-\setmarginsrb{20mm}{20mm}{20mm}{20mm}{0mm}{0mm}{0mm}{0mm}
+\setmarginsrb{20mm}{20mm}{20mm}{20mm}{0mm}{0mm}{0mm}{15mm}
 
 \lstset{
 language=C,
@@ -67,7 +68,7 @@ Use this document as per your own discretion.
 
 %------------------------------------------------------------------------- 
 \section{Timing your program}
-To measure the time consumed by a program you can use time":
+To measure the time consumed by a program you can use "time":
 \begin{lstlisting}{}
 time myprogram
 \end{lstlisting}
@@ -279,7 +280,7 @@ The only things you have to be careful of are remembering that the loop stops at
 
 The following examples shows the corresponding assembly translation of some kind of loops:
 
-\begin{minipage}[t]{8cm}
+\begin{minipage}[t]{9cm}
 \lstinputlisting{source_code/loop_optimization.c}
 
 
